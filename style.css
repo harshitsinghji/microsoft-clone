@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+#drop:hover{
+    color: black;
+    background-color: black;
+}
+
+
+.libad{
+    display: flex;
+    position: absolute;
+    right: 0.5%;
+
+}
+
+.home{
+    background: rgba(0, 0, 0, 0.6) url(./home.jpg) no-repeat center center/cover;
+    background-blend-mode: darken;
+    
+    height: 56vh;
+    
+}
+
+.navbar{
+    font-family: 'Poppins', sans-serif;
+}
+
+#homeheading{
+    font-family: 'Poppins', sans-serif;
+}
+
+#h4heading{
+    font-family: 'Poppins', sans-serif;
+}
+
+#homeinput{
+    border-radius: 0px;
+    
+}
+
+#home-input{
+    border-radius: 0px;
+    
+}
+
+.covidnote{
+    font-family: 'Poppins', sans-serif;
+}
+
+#bunty{
+    background-color: #f0eded !important;
+
+}
+
+#impact{
+    font-family: 'Poppins', sans-serif;
+}
+
+.crow{
+    background-color: #f0eded;
+} 
+
+.employeeimg{
+     border-radius: 300px;
+     height: 60px;
+     width: 60px;
+ }
+
+
+
+ .borderx{
+    border: 0.5PX SOLID rgb(136, 131, 131);
+    
+ }
+@media only screen and (max-width : 1000px){
+     .home{
+        height: 40vh;
+     }
+}
